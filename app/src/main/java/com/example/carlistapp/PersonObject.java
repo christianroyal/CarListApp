@@ -21,15 +21,15 @@ public class PersonObject implements Serializable {
         return auto;
     }
 
-    public void setAuto(String name) {
-        this.auto = name;
+    public void setAuto(String auto) {
+        this.auto = auto;
     }
 
     public String getColor() {
         return color;
     }
 
-    public void setColor(String dob) {
+    public void setColor(String color) {
         this.color = color;
     }
 

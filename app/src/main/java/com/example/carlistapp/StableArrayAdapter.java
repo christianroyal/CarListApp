@@ -45,13 +45,13 @@ class StableArrayAdapter extends ArrayAdapter<PersonObject> {
 
         img = (ImageView)itemView.findViewById(R.id.iv_image);
 
-        TextView tvName=itemView.findViewById(R.id.tv_name);
-        TextView tvDob=itemView.findViewById(R.id.tv_dob);
+        TextView tvAuto=itemView.findViewById(R.id.tv_auto);
+        TextView tvColor=itemView.findViewById(R.id.tv_color);
         PersonObject person = data.get(position);
 
-        tvName.setText(person.getAuto());
-        tvDob.setText(person.getColor());
-        Picasso.with(context).load(person.getImageUrl()).placeholder(R.drawable.car).into(img);
+        tvAuto.setText(person.getAuto());
+        tvColor.setText(person.getColor());
+        Picasso.with(context).load(person.getImageUrl()).into(img);
 
 
         PersonObject p1 = new PersonObject("Automobile","Color","url");

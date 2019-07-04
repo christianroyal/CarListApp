@@ -66,17 +66,17 @@ public class MainActivity extends AppCompatActivity {
     private List<PersonObject> fetchPeople() {
         // Declaring and Init values
         List<PersonObject> people = new ArrayList<>();
-        PersonObject personObject = new PersonObject("Ferrari LaFerrari","Red","https://compareceleb.com/uploads/posts/2018-01/1515403862_denzel-washington-height-weight-body-measurements.jpg");
-        PersonObject personObject1 = new PersonObject("Mercedes Benz C63","dob","https://m.media-amazon.com/images/M/MV5BMTk2OTY5MzcwMV5BMl5BanBnXkFtZTgwODM4MDI5MjI@._V1_SY1000_CR0,0,666,1000_AL_.jpg");
-        PersonObject personObject2 = new PersonObject("Porsche 911","dob","https://www.tsn.ca/polopoly_fs/1.1327309.1561303868!/fileimage/httpImage/image.jpg_gen/derivatives/landscape_620/lewis-hamilton.jpg");
-        PersonObject personObject3 = new PersonObject("Lamborghini Urus ","dob","");
-        PersonObject personObject4 = new PersonObject("Maserati Levante","dob","");
-        PersonObject personObject5 = new PersonObject("Dodge Challenger Hellcat","dob","");
-        PersonObject personObject6 = new PersonObject("Saleen S7","dob","");
-        PersonObject personObject7 = new PersonObject("Shelby Cobra","dob","");
-        PersonObject personObject8 = new PersonObject("","dob","");
-        PersonObject personObject9 = new PersonObject("Samantha Jenkins","dob","");
-        PersonObject personObject10 = new PersonObject("Samantha Jenkins","dob","");
+        PersonObject personObject = new PersonObject("Ferrari LaFerrari","Red","https://cimg2.ibsrv.net/ibimg/hgm/1920x1080-1/100/683/ferrari-laferrari_100683806.jpg");
+        PersonObject personObject1 = new PersonObject("Mercedes Benz Project1","Silver","https://amp.businessinsider.com/images/59b6f7759803c51e008b45e3-1136-852.jpg");
+        PersonObject personObject2 = new PersonObject("Porsche GT2","Silver","https://images-na.ssl-images-amazon.com/images/I/91oRztSpqvL._SX425_.jpg");
+        PersonObject personObject3 = new PersonObject("Lamborghini Urus ","Yellow","https://cdn.motor1.com/images/mgl/rpZAX/s1/2019-lamborghini-urus.jpg");
+        PersonObject personObject4 = new PersonObject("Maserati Levante","Blue","https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/5p2a2423-1534175613.jpg?crop=1xw:1xh;center,top&resize=768:*");
+        PersonObject personObject5 = new PersonObject("Dodge Challenger Hellcat","Lime Green","https://cdn-ds.com/stock/2017-Dodge-Challenger-SRT-Hellcat-Akron-OH/seo/ECL2585-2C3CDZC96HH591981/sz_666616/w_1280/h_853/2C3CDZC96HH591981_d89b123dd74fc70c.jpg");
+        PersonObject personObject6 = new PersonObject("Saleen S7","Black","https://rmsothebys-cache.azureedge.net/e/0/e/0/8/2/e0e0823fda2a59b0231d5b5881dd0ea8ec6054ce.jpg");
+        PersonObject personObject7 = new PersonObject("Shelby Cobra","Blue with White Stripes","https://cdn.bringatrailer.com/wp-content/uploads/2018/01/15174357458764daDSC_5724_cc-940x627.jpg");
+        PersonObject personObject8 = new PersonObject("McLaren P1","Orange","https://www.carsinvasion.com/wp-content/uploads/2013/08/2013-McLaren-P1-Front.jpg");
+        PersonObject personObject9 = new PersonObject("Koenesigg Agera R","Purple","https://images-na.ssl-images-amazon.com/images/I/716sNxtZoFL._SL1004_.jpg");
+        PersonObject personObject10 = new PersonObject("Bugatti Chiron","Yellow and Black","https://2p2bboli8d61fqhjiqzb8p1a-wpengine.netdna-ssl.com/wp-content/uploads/2018/11/bugatti-chiron-yellow-1.jpg");
 
         // Add couple person
         people.add(personObject);
